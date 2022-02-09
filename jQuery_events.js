@@ -9,3 +9,12 @@ $('h1').click(function(){
 $('li').click(function(){
   console.log('any li was clicked');
 })
+
+//KEY PRESS
+
+$('input').eq(0).keypress(function(){
+  // $('h2').toggleClass('turnBlue');
+  if (event.which === 13) {
+    $('h2').toggleClass('turnBlue')
+  }
+})
