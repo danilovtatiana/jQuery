@@ -24,3 +24,14 @@ listItems.eq(0).css('color', 'orange')
 
 //last item
 listItems.eq(-1).css('color','green')
+//grabbing html text
+
+$('h1').text()
+//if you want to change it
+$('h1').text("NEW TEXT")
+
+//attributes and values
+$('input').eq(1).attr('type','checkbox')
+
+//affect the value of the input tag
+$('input').eq(0).val("new value")
